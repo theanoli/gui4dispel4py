@@ -1,0 +1,62 @@
+#div-toolbox-outer {
+	margin: 50px 100px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 150px;
+	width: fill;
+	white-space:nowrap;
+}
+#pe-select{
+	margin: 0 100px 20px;
+	/*margin-bottom: 20px;
+	margin: 50px;*/
+}
+/*#div-toolbox-inner { 
+	width: 7000px; 
+}*/
+#workflow1, 
+#workflow2, 
+#workflow3, 
+#workflow4, 
+#workflow5 {
+	width:100px;
+	height:100px;
+	border:1px solid #aaaaaa;
+	display:inline-block;
+}
+#workflow1 img, 
+#workflow2 img, 
+#workflow3 img, 
+#workflow4 img, 
+#workflow5 img{
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+}
+div.center{
+  width: 600px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+text-align:center;
+  float: center;
+}
+#input{
+	float: left;
+	margin: 0 100px 50px;
+	display:inline-block;
+}
+#submit-workflow{
+	float:right;
+	display:inline-block;
+	margin: 50px 10px 50px;
+}
+html {
+	font-family: sans-serif;
+}
+#div-workflow{
+	margin: 0 100px 0px;
+}
+h3{
+	font-size: 32px;
+}
